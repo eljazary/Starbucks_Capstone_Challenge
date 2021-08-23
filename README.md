@@ -69,3 +69,5 @@ Pandas
 * KNeighborsClassifier 
 * RandomForestClassifier
 * DecisionTreeClassifier
+
+https://eljazary.medium.com/cup-of-machine-learning-from-starbucks-64666e4af4ac
