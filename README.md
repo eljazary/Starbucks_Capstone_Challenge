@@ -71,3 +71,25 @@ Pandas
 * DecisionTreeClassifier
 
 https://eljazary.medium.com/cup-of-machine-learning-from-starbucks-64666e4af4ac
+ 
+### 1. Business Understanding
+To guide the project, the following questions were considered:
+
+What are the main factors that contribute to customers making purchases?
+Are offers a way to increase customer engagement?
+What kind of offers are the most popular?
+What populations are more interested in offers?
+What offers should we recommend to different customers?
+
+## Motivation 
+we need to predict purchasing offers to most response customer (offer _received , offer viewed , offer complete ) based on demographic attributes of customer and other attributes of company offers by applying some sort of unsupervised machine learning (KNeighborsClassifier , RandomForestClassifier and DecisionTreeClassifier) but before applying model , datasets need to clean and asses then making some data exploratory to know some information about our customer and offers effectiveness also trying to answer following question
+What the distribution of income with age_range ?
+what is distribution of Customer age range?
+What is the age distribution across gender with income ?
+ using of  f1 score to check accuracy of our models and we can choose one to use .
+ 
+### Data cleaning and Implantation :
+we have three datasets "portfolio.json , profile.json, transcript.json" all this three datasets include all information regards to customer it and offers awarded to customer and portfolio
+
+### Acknowledgements
+Special thanks again to Starbucks and Udacity for providing the data utilized in this project!
